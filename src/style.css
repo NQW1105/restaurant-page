@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype'),
+       url('./OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;     
+}
+
+body {
+  /* background-color: brown;   */
+  margin: 0;
+  height: 100vh;
+  font-family: 'MyFont';
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100vh; */
+  height: 100%;
+  background-color: #dbdbdb;  
+
+}
+
+#header {
+  background-color: #006491;  
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+#header > div {
+  cursor: pointer;  
+}
+
+#main-content {
+  background-color: #dbdbdb;  
+  /* display: flex; */
+  padding: 0 10vw;
+}
+
+#main-content > hr {
+  border: 1px solid black;
+}
+
+.menu-list {
+  display: flex;
+  margin: 25px 0;
+  gap: 22px;
+  text-align: justify;
+}
+
+.menu-list > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer {
+  background-color: #006491; 
+  color: whitesmoke; 
+  display: flex;
+  justify-content: center;
+}
+
+#footer > p {
+  margin: 0; 
+  padding: 15px 0;
+  font-weight: bold;
+}
